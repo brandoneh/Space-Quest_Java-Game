@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=GUI
+comment0.text=\r\n\ The\ GUI\ class\ produces\ the\ user\ interface\ and\ acts\ as\ the\ main\ class,\ creating\ instances\ of\ \r\n\ other\ classes\ required\ to\ run\ the\ game.\ It\ also\ adds\ ActionListener\ functions\ to\ a\ button\r\n\ and\ an\ editable\ JTextArea,\ allowing\ the\ player\ to\ enter\ commands\ in\ the\ interface\ as\ opposed\r\n\ to\ a\ system\ input\ window.\r\n\ \r\n\ @author\ 162228\ \r\n\ @version\ 2\r\n
+comment1.params=
+comment1.target=GUI()
+comment1.text=\r\n\ The\ GUI\ class\ creates\ a\ JTextArea\ to\ show\ the\ text\ output\ as\ well\ as\ the\ Player\ and\ Ship\ \r\n\ representations,\ the\ Parser,\ the\ Game\ and\ some\ boolean\ values.\ The\ booleans\ are\ \r\n\ logMade\ (indicates\ that\ a\ textFile\ has\ been\ opened\ and\ is\ being\ written\ to),\ finished\r\n\ (indicating\ whether\ conditions\ have\ been\ met\ to\ perform\ an\ exit)\ and\ end\ (indicating\ that\ \r\n\ the\ game\ is\ ready\ to\ exit).\ It\ also\ beings\ play,\ the\ main\ method.\r\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\r\n\ The\ main\ method,\ creating\ a\ log\ of\ the\ the\ user's\ inputs\ by\ writing\ to\ a\ newly\ created\ text\r\n\ file\ or\ overwriting\ the\ existing\ one.\ Exceptions\ produced\ by\ being\ unable\ to\ open\ or\ write\r\n\ to\ the\ text\ file\ are\ caught\ by\ an\ exception\ handler.\ It\ then\ calls\ the\ makeFrame\ method\r\n\ to\ produce\ the\ interface\ (regardless\ of\ if\ an\ exception\ occures)\ and\ begins\ the\ game.\ \r\n
+comment3.params=
+comment3.target=void\ makeFrame()
+comment3.text=\r\n\ This\ method\ creates\ the\ compnents\ constituting\ the\ graphical\ user\ interface,\ most\ \r\n\ importantly\ linking\ the\ stats\ of\ the\ player's\ ship\ (shipStart)\ to\ the\ shipStats\ \r\n\ JTextArea,\ creating\ a\ JScrollPane\ containing\ the\ game's\ output,\ a\ JTextField\ for\ \r\n\ user\ entry\ and\ JButton\ with\ an\ ActionListener\ that\ processes\ this\ entry.\r\n
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=main\ shipImg\ shipStats
+comment5.target=void\ updateGUI(javax.swing.JLabel,\ javax.swing.JLabel,\ javax.swing.JTextArea)
+comment5.text=\r\n\ This\ method\ repaints\ the\ GUI\ with\ the\ appropriate\ background\ image\ (depending\ on\ the\r\n\ game's\ currentRoom's\ roomType),\ the\ hull\ icon\ depending\ on\ shipStart's\ current\ hull\r\n\ integrity\ and\ the\ stats\ of\ shipStart.\r\n
+comment6.params=milliseconds
+comment6.target=void\ wait(int)
+comment6.text=\r\n\ Wait\ for\ a\ specified\ number\ of\ milliseconds\ before\ carrying\ out\ the\ next\ command.\r\n\ \r\n\ @param\ \ milliseconds\ \ the\ number\ \r\n
+comment7.params=
+comment7.target=void\ quit()
+comment7.text=\r\n\ Quits\ the\ game.\r\n
+numComments=8

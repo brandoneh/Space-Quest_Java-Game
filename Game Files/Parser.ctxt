@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\ \ \r\n\ \r\n\ This\ parser\ reads\ user\ input,\ tokenises\ it\ and\ stores\ it\ in\ an\ ArrayList.\ It\r\n\ then\ compares\ the\ elements\ to\ a\ list\ of\ strings\ from\ a\ KeyWordList\ and\ stores\ \r\n\ a\ match\ as\ a\ keyWord.\ It\ then\ returns\ a\ Command\ object\ consisting\ of\ a\ \r\n\ CommandWord\ and\ Keyword.\r\n\r\n\ \r\n\ @author\ 162228\r\n\ @version\ 2\r\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\r\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window\ and\ a\ KeyWords\ object,\r\n\ keyWordList,\ to\ retrieve\ the\ appropriate\ list\ of\ keywords\ for\ the\ current\r\n\ roomType.\r\n
+comment2.params=roomType\ planet\ inputLine
+comment2.target=Command\ getCommand(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Takes\ a\ user\ input,\ tokenises\ it\ and\ stores\ it\ in\ an\ ArrayList.\ It\ then\ takes\ the\ first\r\n\ item\ as\ the\ CommandWord\ and\ iterates\ through\ the\ remaining\ items\ while\ comparing\ it\ with\r\n\ items\ in\ the\ Room-relevant\ keyWordList,\ passing\ it\ to\ the\ Command\ if\ a\ match\ is\ found.\r\n\ \r\n\ @param\ roomType\ A\ string\ containing\ the\ roomType\ of\ the\ current\ room.\r\n\ @return\ The\ next\ command\ along\ with\ a\ keyword\ to\ interpret\ the\ next\ action.\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ showCommands()
+comment3.text=\r\n\ Returns\ a\ list\ of\ available\ CommandWords.\r\n\ \r\n\ @return\ List\ of\ available\ CommandWords\r\n
+numComments=4

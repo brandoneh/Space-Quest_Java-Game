@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=EnemyShip
+comment0.text=\r\n\ EnemyShip\ is\ a\ subclass\ of\ Ship,\ adding\ the\ ability\ to\ scale\ the\ weaponDamage\ and\ hull\ to\ produce\r\n\ combat\ events\ with\ a\ randomised\ element.\r\n\ \r\n\ @author\ 162228\r\n\ @version\ 2\r\n
+comment1.params=
+comment1.target=EnemyShip()
+comment1.text=\r\n\ A\ Random\ object\ is\ created\ and\ a\ float\ is\ generated\ to\ give\ a\ random\ decimal\ between\ 0.7\ and\r\n\ 1.2\r\n
+comment2.params=
+comment2.target=void\ scaleWeaponDamage()
+comment2.text=\r\n\ This\ method\ scales\ the\ weaponDamage\ of\ the\ EnemyShip\ by\ multiplying\ with\ the\ scaling\ variable.\r\n
+comment3.params=
+comment3.target=void\ scaleHull()
+comment3.text=\r\n\ This\ method\ scales\ the\ hull\ of\ the\ EnemyShip\ by\ multiplying\ with\ the\ scaling\ variable.\r\n
+numComments=4

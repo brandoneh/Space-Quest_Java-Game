@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ The\ Player\ class\ sets\ and\ contains\ the\ name\ of\ the\ player\ and\ a\ boolean\ showing\r\n\ whether\ a\ name\ has\ been\ set.\r\n\ \r\n\ @author\ 162228\r\n\ @version\ 2\r\n
+comment1.params=
+comment1.target=Player()
+comment1.text=\r\n\ The\ Player\ constructor\ initializes\ the\ playerName\ as\ null\ and\ playerNamed\r\n\ as\ false\ as\ a\ name\ has\ not\ been\ set.\r\n
+comment2.params=
+comment2.target=void\ playerNameIntro()
+comment2.text=\r\n\ A\ method\ that\ holds\ the\ game\ while\ playerName\ is\ being\ set.\r\n
+comment3.params=
+comment3.target=boolean\ getPlayerNamed()
+comment3.text=\r\n\ Accessor\ method\ to\ check\ if\ the\ playerName\ has\ been\ set.\r\n\ \r\n\ @return\ playerNamed\ boolean;\r\n
+comment4.params=
+comment4.target=java.lang.String\ getPlayerName()
+comment4.text=\r\n\ Accessor\ method\ for\ the\ user's\ chosen\ name.\r\n\ \r\n\ @return\ the\ playerName\ string.\r\n
+comment5.params=name
+comment5.target=void\ setPlayerName(java.lang.String)
+comment5.text=\r\n\ Mutator\ method\ to\ set\ the\ playerName.\r\n\ \r\n\ @param\ String\ name;\r\n
+comment6.params=b
+comment6.target=void\ setPlayerNamed(boolean)
+comment6.text=\r\n\ Mutator\ method\ to\ show\ that\ the\ playerName\ has\ been\ set.\r\n\ \r\n\ @param\ boolean\ b;\r\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EventScript
+comment0.text=\r\n\ The\ EventScript\ class\ contains\ the\ text\ to\ be\ printed\ when\ an\ EventRoom\ is\ entered,\ with\ the\ particular\ event\r\n\ being\ decided\ by\ the\ randomly\ generated\ value\ eventType\ from\ the\ EventRoom\ class.\r\n\ \r\n\ @author\ 162228\r\n\ @version\ 2\r\n
+comment1.params=
+comment1.target=EventScript()
+comment1.text=\r\n\ There\ are\ no\ Instance\ Variables\ for\ this\ class.\r\n
+comment2.params=eventType
+comment2.target=java.util.ArrayList\ getScriptIntro(int)
+comment2.text=\r\n\ This\ method\ stores\ the\ appropriate\ script\ for\ the\ EventRoom\ in\ an\ ArrayList\ and\ returns\ it\r\n\ \r\n\ @param\ eventType\ An\ int\ specifying\ which\ event\ should\ be\ printed\ to\ the\ terminal.\r\n\ @return\ script\ ArrayList\ of\ lines\ to\ be\ appended\ to\ the\ GUI\ JTextArea.\r\n
+comment3.params=playerWeaponDamage\ enemyHull
+comment3.target=java.util.ArrayList\ fightScriptPlayer(int,\ int)
+comment3.text=\r\n\ This\ method\ is\ used\ when\ a\ combat\ event\ occurs.\ It\ returns\ the\ script\ for\ the\ player's\ turn.\r\n\ \r\n\ @param\ int\ playerWeaponDamage\ the\ current\ weaponDamage\ of\ the\ player's\ ship.\r\n\ @param\ int\ enemyHull\ the\ current\ hull\ of\ the\ enemyShip.\r\n\ @return\ script\ ArrayList\ of\ lines\ to\ be\ appended\ to\ the\ GUI\ JTextArea.\r\n
+comment4.params=enemyWeaponDamage
+comment4.target=java.util.ArrayList\ fightScriptEnemy(int)
+comment4.text=\r\n\ This\ method\ is\ used\ when\ a\ combat\ event\ occurs.\ It\ returns\ the\ script\ for\ the\ enemy's\ turn.\r\n\ \r\n\ @param\ int\ enemyWeaponDamage\ the\ current\ weaponDamage\ of\ the\ enemy's\ ship.\r\n\ @return\ script\ ArrayList\ of\ lines\ to\ be\ appended\ to\ the\ GUI\ JTextArea.\r\n
+numComments=5

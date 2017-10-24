@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\ \r\n\ This\ class\ holds\ a\ command\ consisting\ of\ a\ CommandWord\ and\ a\ String\ \r\n\ keyWord\ which\ provides\ context\ for\ the\ CommandWord.\ If\ the\ CommandWord\ \r\n\ passed\ to\ this\ class\ does\ not\ match\ an\ existing\ one\ it\ returns\r\n\ CommandWord.UNKNOWN.\ If\ the\ command\ consisted\ of\ 1\ word\ the\ keyWord\ is\ \r\n\ <null>.\r\n\ \r\n\ @author\ \ 162228\r\n\ @version\ 2\r\n
+comment1.params=commandWord
+comment1.target=Command(CommandWord)
+comment1.text=\r\n\ Create\ a\ command\ object.\ First\ and\ second\ words\ must\ be\ supplied,\ but\r\n\ the\ second\ may\ be\ null.\r\n\ \r\n\ @param\ CommandWord\ commandWord\r\n
+comment2.params=
+comment2.target=CommandWord\ getCommandWord()
+comment2.text=\r\n\ Accessor\ method\ for\ the\ command's\ CommandWord.\r\n\ \r\n\ @return\ The\ command\ word.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getKeyWord()
+comment3.text=\r\n\ Accessor\ method\ for\ the\ command's\ keyWord.\r\n\ \r\n\ @return\ The\ second\ word\ of\ this\ command.\ Returns\ null\ if\ there\ was\ \r\n\ no\ keyWord.\r\n
+comment4.params=
+comment4.target=boolean\ isUnknown()
+comment4.text=\r\n\ @return\ true\ if\ this\ command\ was\ not\ understood.\r\n
+comment5.params=word
+comment5.target=void\ setKeyWord(java.lang.String)
+comment5.text=\r\n\ Mutator\ method\ for\ the\ keyWord.\r\n\ \r\n\ @param\ String\ word\ the\ new\ keyWord\ to\ be\ stored\ in\ the\ Command\r\n
+comment6.params=
+comment6.target=boolean\ hasKeyWord()
+comment6.text=\r\n\ @return\ true\ if\ the\ command\ has\ a\ key\ word.\r\n
+numComments=7

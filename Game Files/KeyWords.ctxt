@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=KeyWords
+comment0.text=\r\n\ This\ Class\ contains\ Room-specific\ ArrayLists\ of\ keywords\ used\ to\ check\ against\ the\ user's\ input.\r\n\ An\ existing\ ArrayList\ is\ added\ to\ the\ keyWords\ ArrayList\ when\ the\ condition\ in\ the\ if\ statement\ is\ met.\r\n\ \r\n\ @author\ 162228\r\n\ @version\ 2\r\n
+comment1.params=
+comment1.target=KeyWords()
+comment1.text=\r\n\ Creates\ an\ empty\ ArrayList\ to\ be\ filled\ with\ keywords.\r\n
+comment2.params=roomType\ planet
+comment2.target=java.util.ArrayList\ getKeyWordOption(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ This\ method\ generates\ the\ appropriate\ ArrayList\ of\ keywords\ based\ on\ the\ current\ Room's\ roomType\ and,\r\n\ if\ in\ a\ shop,\ adds\ the\ planet-appropriate\ weapon.\r\n\ \r\n\ @param\ String\ roomType\ The\ type\ of\ the\ current\ room\ in\ the\ game\ class.\r\n\ @param\ String\ planet\ \r\n\ @return\ ArrayList.\ \r\n
+comment3.params=item
+comment3.target=boolean\ checkKeyWordContents(java.lang.String)
+comment3.text=\r\n\ This\ method\ checks\ if\ the\ current\ ArrayList\ of\ keywords\ contains\ a\ given\ String,\ used\ for\ user\ inputs.\r\n\ \r\n\ @param\ String\ item\ The\ item\ who's\ presence\ is\ being\ queried.\r\n\ @return\ Boolean\ true\ if\ the\ given\ String\ \ matches\ an\ item\ in\ the\ ArrayList\r\n
+numComments=4

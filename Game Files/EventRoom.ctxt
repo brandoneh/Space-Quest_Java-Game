@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=EventRoom
+comment0.text=\r\n\ A\ Subclass\ of\ Room\ adding\ the\ ability\ to\ initiate\ an\ event\ while\r\n\ travelling\ between\ planets\ by\ randomly\ generating\ a\ 1,\ 2\ or\ 3\ and\ using\r\n\ that\ to\ determine\ which\ event\ occurs\ through\ the\ getScriptIntro\ \r\n\ function\ of\ an\ EventScript.\r\n\ \r\n\ @author\ 162228\r\n\ @version\ 2\r\n
+comment1.params=description\ roomType\ planet
+comment1.target=EventRoom(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ an\ EventRoom\ with\ a\ given\ description\ and\ roomType,\r\n\ as\ well\ as\ creating\ an\ EventScript\ and\ a\ Random\ object\ to\r\n\ generate\ an\ eventType\ to\ pass\ to\ it.\r\n
+comment2.params=
+comment2.target=int\ getEventType()
+comment2.text=\r\n\ An\ accessor\ function\ for\ the\ eventType.\r\n\ \r\n\ @return\ the\ eventType\ of\ the\ EventRoom.\r\n
+comment3.params=newEventType
+comment3.target=void\ setEventType(int)
+comment3.text=\r\n\ A\ mutator\ function\ for\ the\ eventType.\r\n\ \r\n\ @param\ int\ newEventType\ the\ eventType\ of\ the\ EventRoom.\r\n
+comment4.params=
+comment4.target=int\ newEventType()
+comment4.text=\r\n\ Generates\ a\ new\ random\ eventType.\r\n\ \r\n\ @return\ a\ new\ eventType.\r\n
+comment5.params=
+comment5.target=java.util.ArrayList\ getScriptIntro()
+comment5.text=\r\n\ Passes\ the\ EventScript\ the\ generated\ eventType\ to\ begin\ the\ \r\n\ corresponding\ event.\r\n
+comment6.params=
+comment6.target=EventScript\ getEventScript()
+comment6.text=\r\n\ An\ accessor\ function\ for\ the\ eventScript.\r\n\ \r\n\ @return\ the\ eventScript\ of\ the\ EventRoom.\r\n
+numComments=7
